@@ -1,0 +1,75 @@
+body{
+    background-color: #e0e0dd;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-weight: bold;
+    margin-bottom: .4rem;
+}
+img{
+    width: 14rem;
+    height: 10rem;
+}
+.include{
+    margin: 0;
+    color: #198754;
+    font-size: .8rem;
+}
+
+.oferta{
+    background-color: white;
+    width: 60vw;
+    height: 25vh;
+    padding: 0;
+}
+
+.score{
+    height: 1.5rem;
+}
+
+.points{
+    color: white;
+    font-weight: bold;
+    width: 2.5rem;
+}
+
+.price{
+    margin: 0 0 1.5rem 1.5rem ;
+    font-size: 1.5rem;
+}
+
+.hotel-price{
+    padding: 0 .5rem 0 .5rem;
+    height: 20vh;
+}
+
+.text{
+    font-size: .85rem;
+    font-weight: normal;
+}
+
+.hotel-info{
+    width: 20vw;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.hotel-price:hover{
+    background-color: rgba(68, 233, 77, 0.25);
+}
+
+.see-more{
+    height: 2.2rem;
+    width: 7rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.margin-cont{
+    margin: 0 auto 3rem auto;
+    padding: 0;
+}
+  
