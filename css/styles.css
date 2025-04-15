@@ -40,9 +40,17 @@ header {
     object-fit: cover;
 }
 
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
 .card:hover {
+    transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 .card .btn:hover {
@@ -73,6 +81,11 @@ header {
     font-weight: bold;
 }
 
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    border-color: #007bff #007bff #fff;
+}
+
 footer {
     background-color: #f8f9fa;
 }
@@ -88,21 +101,4 @@ footer a:hover {
 footer a {
     color: #adb5bd;
     text-decoration: none;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.nav-tabs .nav-link.active {
-    font-weight: bold;
-    border-color: #007bff #007bff #fff;
 }
