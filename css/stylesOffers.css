@@ -15,7 +15,7 @@ img{
 }
 .include{
     margin: 0;
-    color: #198754;
+    color: #0d6efd;
     font-size: .8rem;
 }
 
@@ -57,7 +57,7 @@ img{
 }
 
 .hotel-price:hover{
-    background-color: rgba(68, 233, 77, 0.25);
+    background-color: rgba(7, 106, 227, 0.25);
 }
 
 .see-more{
@@ -67,9 +67,60 @@ img{
     color: white;
     font-weight: bold;
 }
+.container{
+    margin: 0;
+}
 
-.margin-cont{
-    margin: 0 auto 3rem auto;
+.margin-auto{
+    margin: 0 auto;
     padding: 0;
 }
+.margin-auto1{
+    margin: 0 auto;
+}
+
   
+@media (max-width: 992px) {
+
+    iframe {
+        display: none;
+    }
+
+
+    .filter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem; 
+    }
+
+    .filter > div {
+        width: 100%;
+        text-align: center;
+    }
+
+ 
+    .info {
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+ 
+    .oferta {
+        flex-direction: column; 
+        align-items: center; 
+        width: auto; 
+        height: auto; 
+    }
+
+    .hotel-info, .hotel-price {
+        margin: 0; 
+        text-align: center; 
+    }
+
+    .margin-auto1 {
+        margin: auto;
+    }
+
+}
