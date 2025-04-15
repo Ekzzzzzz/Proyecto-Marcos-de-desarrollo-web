@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapid-dinn</title>
+    <title>Dinnra</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <!-- Logo -->
         <div>
-            <h2 class="mb-0 text-primary">Rapid-dinn</h2>
+            <h2 class="mb-0 text-primary">Dinnra</h2>
         </div>
         <!-- Botones y menú -->
         <div class="d-flex align-items-center gap-3">
@@ -30,8 +30,8 @@
 <!-- Banner -->
 <section id="banner-principal" class="py-5 bg-light">
     <div class="container d-flex flex-column align-items-center justify-content-center text-center" style="min-height: 300px;">
-        <h2 class="fw-bold">Ahorra hasta un 45% en tu próxima estadía de hotel</h2>
-        <p class="text-muted">Comparamos precios de hotel de más de 100 páginas web</p>
+        <h2 class="fw-bold">Disfruta de los descuentos de usar Dinnra al reservar un hotel</h2>
+        <p class="text-muted">Con hoteles alrededor de todo el mundo!</p>
         <form class="row g-2 justify-content-center mt-4">
             <!-- Lugar de interés -->
             <div class="col-md-3 position-relative">
@@ -177,16 +177,132 @@
     </div>
 </section>
 
-<!-- Pie de página -->
+<!-- Búsquedas destacadas -->
+<section id="busquedas-destacadas" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Búsquedas destacadas</h2>
+        <!-- Pestañas -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="busquedasTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ciudades-tab" data-bs-toggle="tab" data-bs-target="#ciudades" type="button" role="tab" aria-controls="ciudades" aria-selected="true">Ciudades</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="destinos-tab" data-bs-toggle="tab" data-bs-target="#destinos" type="button" role="tab" aria-controls="destinos" aria-selected="false">Destinos</button>
+            </li>
+        </ul>
+        <!-- Pestañas -->
+        <div class="tab-content" id="busquedasTabContent">
+            <!-- Ciudades -->
+            <div class="tab-pane fade show active" id="ciudades" role="tabpanel" aria-labelledby="ciudades-tab">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/14/73/14734_v10.jpeg" class="card-img-top" alt="Nueva York">
+                            <div class="card-body">
+                                <h5 class="card-title">Nueva York</h5>
+                                <p class="text-muted">2903 hoteles</p>
+                                <p class="text-muted">S/ 1641 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/66/63/66633_v76.jpeg" class="card-img-top" alt="Cuzco">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuzco</h5>
+                                <p class="text-muted">1,629 hoteles</p>
+                                <p class="text-muted">S/ 313 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/66/62/66629_v74.jpeg"" class="card-img-top" alt="Arequipa">
+                            <div class="card-body">
+                                <h5 class="card-title">Arequipa</h5>
+                                <p class="text-muted">632 hoteles</p>
+                                <p class="text-muted">S/ 192 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/66/64/66640_v75.jpeg" class="card-img-top" alt="Lima">
+                            <div class="card-body">
+                                <h5 class="card-title">Lima</h5>
+                                <p class="text-muted">999 hoteles</p>
+                                <p class="text-muted">S/ 244 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Destinos -->
+            <div class="tab-pane fade" id="destinos" role="tabpanel" aria-labelledby="destinos-tab">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/66/60/66607_v74.jpeg" class="card-img-top" alt="Machu Picchu">
+                            <div class="card-body">
+                                <h5 class="card-title">Machu Picchu</h5>
+                                <p class="text-muted">150 hoteles</p>
+                                <p class="text-muted">S/ 500 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/14/03/140301_v72.jpeg" class="card-img-top" alt="Paracas">
+                            <div class="card-body">
+                                <h5 class="card-title">Paracas</h5>
+                                <p class="text-muted">137 hoteles</p>
+                                <p class="text-muted">S/ 312 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/15/35/15353_v78.jpeg" class="card-img-top" alt="Aruba">
+                            <div class="card-body">
+                                <h5 class="card-title">Aruba</h5>
+                                <p class="text-muted">550 hoteles</p>
+                                <p class="text-muted">S/ 750 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/66/62/66627_v72.jpeg" class="card-img-top" alt="Trujillo">
+                            <div class="card-body">
+                                <h5 class="card-title">Huaraz</h5>
+                                <p class="text-muted">242 hoteles</p>
+                                <p class="text-muted">S/ 186 prom.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
 <footer class="bg-light border-top py-4">
     <div class="container">
         <div class="row">
-            <!-- Sección de información -->
+            <!-- información -->
             <div class="col-md-4">
-                <h5 class="fw-bold">Rapid-dinn</h5>
+                <h5 class="fw-bold">Dinnra</h5>
                 <p class="text-muted">Somos la mejor página de hoteles 💪</p>
             </div>
-            <!-- Sección de enlaces -->
+            <!-- enlaces -->
             <div class="col-md-4">
                 <h5 class="fw-bold">Enlaces 
                 </h5>
@@ -198,7 +314,7 @@
                     <li><a href="#" class="text-decoration-none text-muted">Contáctanos</a></li>
                 </ul>
             </div>
-            <!-- Sección de redes sociales -->
+            <!-- redes sociales -->
             <div class="col-md-4">
                 <h5 class="fw-bold">Síguenos</h5>
                 <div class="d-flex gap-3">
