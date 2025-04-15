@@ -1,0 +1,40 @@
+#reclamos {
+    background-color: #f8f9fa; /* Fondo general */
+}
+
+#reclamos .container {
+    max-width: 800px;
+}
+
+#reclamos h3 {
+    color: #4387a1; /* Color del título */
+}
+
+#reclamos .form-label {
+    font-weight: bold;
+}
+
+#reclamos .form-control, #reclamos .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#reclamos .form-control:focus, #reclamos .form-select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-color: #148c8c;
+}
+
+#reclamos .btn-primary {
+    background-color: #276881;
+    border: none;
+}
+
+#reclamos .btn-primary:hover {
+    background-color: #23939b;
+}
+
+#mensajeError, #mensajeExito {
+    margin-bottom: 1rem;
+    text-align: center;
+}

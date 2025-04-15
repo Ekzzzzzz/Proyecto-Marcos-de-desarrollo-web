@@ -103,34 +103,3 @@ footer a {
     text-decoration: none;
 }
 
-#sugerencias {
-    background-color: #e0e0dd; /* Fondo general */
-}
-
-#sugerencias .container {
-    max-width: 900px;
-}
-
-#sugerencias h5 {
-    color: #4a148c; /* Color del título */
-}
-
-#sugerencias .form-control {
-    border: none;
-    border-radius: 5px;
-    font-size: 0.9rem;
-}
-
-#sugerencias .form-control:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-#sugerencias .btn-primary {
-    background-color: #4a148c;
-    border: none;
-}
-
-#sugerencias .btn-primary:hover {
-    background-color: #6a1b9a;
-}
